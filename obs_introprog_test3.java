@@ -6,7 +6,7 @@ class Test3 {
 
         //Part 2
         Coche miCoche = new Coche();
-        miCoche.masPuertas(4);
+        miCoche.masPuertas();
         System.out.println(miCoche.puertas);
 
     
@@ -24,7 +24,7 @@ class Test3 {
 //Part 2
 class Coche {
     int puertas;
-    void masPuertas(int d) {
-        puertas = d;
+    void masPuertas() {
+        puertas +=1;
     }
 }
